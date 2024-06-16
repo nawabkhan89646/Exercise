@@ -1,0 +1,104 @@
+#main{
+    padding: 6rem;
+}
+
+#main h1{
+    margin: 2rem 1rem;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#type{
+    display: flex;
+    /* flex-wrap: wrap; */
+    overflow-x: scroll;
+    justify-content: space-between;
+    align-items: center;
+}
+#main #type-inner{
+    /* border: 1px solid black; */
+    border: none;
+    background-color: rgb(239, 166, 70);
+    box-shadow: 5px 5px 10px rgb(121, 200, 253);
+    padding: 1rem;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    /* text-align: center; */
+    width: 10rem; 
+    height: 7rem;
+    /* color: rgb(21, 21, 21); */
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+#exercise{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+#exercise-inner{
+    margin: 1rem;
+    width: 23rem;
+    height: 35rem;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 3px 3px 10px rgb(244, 235, 65);
+    border-radius: 20px;
+    background-color: rgb(24, 94, 113);
+    
+}
+#exercise-inner img{
+   border-radius: 20px;
+}
+
+#muscles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10rem;
+}
+#muscle{
+    background-color:orange;
+    width: 7rem;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.2rem 0.7rem;
+     border-radius: 1rem;
+     border: 1px solid rgb(90, 90, 88);
+     margin: 0.5rem;
+ }
+ #name{
+    font-size: 1.5rem;
+    width: 20rem;
+    /* height: 2.5rem; */
+    font-weight: 600;
+    text-transform: capitalize;
+ }
+
+ #main #search input{
+    font-size: 1.4rem;
+    padding: 0.5rem;
+ }
+
+ #dumb{
+    width: 7rem;
+    text-align: center;
+    margin: 0.5rem;
+ }
+
+ #main #type-inner:hover{
+    /* box-shadow: 15px 15px 10px rgb(52, 30, 2); */
+    filter: drop-shadow(3px 3px 10px rgb(251, 144, 6));
+ }
+ #exer-name{
+    font-size: 2rem;
+    font-weight: 600;
+ }
